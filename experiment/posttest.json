@@ -3,52 +3,52 @@
   "version": 2.0,
   "questions": [
     {
-          "question": "1. ECG refers to:",
+          "question": "1. From the simulator, identify the function of the diaphragm in the microscope.",
       "answers": {
-        "a": "Echocardiogram",
-        "b": "Electrocardiogram",
-        "c": "Electromyogram",
-        "d": "Electroencephalogram"
+        "a": "Holds the slide properly",
+        "b": "Focuses on the specimen",
+        "c": "Magnifies the image",
+        "d": "Adjusts light intensity for proper visualization"
       },
  
-      "correctAnswer": "b",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },   
 
 
     {
-      "question": "2. ECG measures:",
+      "question": "2. In the simulator window, if the image in the microscope appears blurred, what would you do for better visualization of the cells?",
       "answers": {
-        "a": "Electrical activity of muscle tissues",
-        "b": "Electrical activity in brain",
-        "c": "Electrical activity in heart",
-        "d": "Electrical activity of internal organs"
+        "a": "Adjust light intensity",
+        "b": "Use fine and coarse adjustments",
+        "c": "Use new slides",
+        "d": "Change the objective lens"
       },
       
-      "correctAnswer": "c",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
 
     {
-      "question": "3. The main complex mentioned in an ECG is:",
+      "question": "3. In H&E staining, how do the nuclei of cardiac muscle cells appear?",
       "answers": {
-        "a": "PQR",
-        "b": "RST",
-        "c": "PRS",
-        "d": "QRS"
+        "a": "Pink",
+        "b": "Blue/Purple",
+        "c": "Yellow",
+        "d": "Colorless"
       },
       
-      "correctAnswer": "d",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
 
     {
-      "question": "4. P wave in ECG is representative of:",
+      "question": "4. Long, cylindrical, striated fibres with pink cytoplasm and multiple peripheral blue nuclei in H and E stain represent?",
       "answers": {
-        "a": "Atrial depolarization",
-        "b": "Atrial repolarization",
-        "c": "Ventricular depolarization",
-        "d": "Ventricular repolarization"
+        "a": "Skeletal muscle",
+        "b": "Nervous tissue",
+        "c": "Squamous epithelium",
+        "d": "Cardiac muscle"
       },
       
       "correctAnswer": "a",
@@ -57,15 +57,15 @@
 
 
     {
-      "question": "5. Normally resting heart rate in a healthy individual is:",
+      "question": "5. How do squamous epithelial cells appear under H&E stain?",
       "answers": {
-        "a": "100-140bpm",
-        "b": "50-80 bpm",
-        "c": "60-100bpm",
-        "d": "80-150 bpm"
+        "a": "Long, cylindrical, striated cells",
+        "b": "Flattened cells with round nuclei",
+        "c": "Large cell bodies, prominent central nuclei",
+        "d": "Intercalated disc between cells"
       },
       
-      "correctAnswer": "c",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
 
@@ -73,15 +73,15 @@
 
 
     {
-      "question": "6. The T wave in ECG is indicative of:",
+      "question": "6. The objective lens used for high-power observation of fine details of the tissues:",
       "answers": {
-        "a": "Atrial depolarization",
-        "b": "Atrial repolarization",
-        "c": "Ventricular depolarization",
-        "d": "Ventricular repolarization"
+        "a": "10X",
+        "b": "4X",
+        "c": "40X",
+        "d": "20X"
       },
      
-      "correctAnswer": "d",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     }
   ]
