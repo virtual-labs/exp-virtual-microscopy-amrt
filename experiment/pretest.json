@@ -3,12 +3,12 @@
   "version": 2.0,
   "questions": [
     {
-          "question": "1. ECG refers to:",
+          "question": "1. Histology refers to the study of:",
       "answers": {
-        "a": "Echocardiogram",
-        "b": "Electrocardiogram",
-        "c": "Electromyogram",
-        "d": "Electroencephalogram"
+        "a": "Muscles",
+        "b": "Tissues",
+        "c": "Bones",
+        "d": "Diseases"
       },
  
       "correctAnswer": "b",
@@ -17,12 +17,12 @@
 
 
     {
-      "question": "2. ECG measures:",
+      "question": "2. The stain commonly used in histology is:",
       "answers": {
-        "a": "Electrical activity of muscle tissues",
-        "b": "Electrical activity in brain",
-        "c": "Electrical activity in heart",
-        "d": "Electrical activity of internal organs"
+        "a": "Gram stain",
+        "b": "Iodine stain",
+        "c": "Hematoxylin and eosin",
+        "d": "Methylene blue"
       },
       
       "correctAnswer": "c",
@@ -30,25 +30,39 @@
     },
 
     {
-      "question": "3. The main complex mentioned in an ECG is:",
+      "question": "3. The cell, which is found in the nervous tissue, is:",
       "answers": {
-        "a": "PQR",
-        "b": "RST",
-        "c": "PRS",
-        "d": "QRS"
+        "a": "Neuron",
+        "b": "Chondrocyte",
+        "c": "FibroblastPRS",
+        "d": "Osteocyte"
       },
       
-      "correctAnswer": "d",
+      "correctAnswer": "a",
       "difficulty": "beginner"
     },
 
     {
-      "question": "4. P wave in ECG is representative of:",
+      "question": "4. While staining, the nuclei of cardiac muscle cells appear:",
       "answers": {
-        "a": "Atrial depolarization",
-        "b": "Atrial repolarization",
-        "c": "Ventricular depolarization",
-        "d": "Ventricular repolarization"
+        "a": "Pink",
+        "b": "Purple",
+        "c": "Red",
+        "d": "Green"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "5. Which part of the epithelial cells does Haematoxylin stain?",
+      "answers": {
+        "a": "Nucleus",
+        "b": "Lipids",
+        "c": "Glycogen",
+        "d": "Cytoplasm"
       },
       
       "correctAnswer": "a",
@@ -56,32 +70,18 @@
     },
 
 
-    {
-      "question": "5. Normally resting heart rate in a healthy individual is:",
-      "answers": {
-        "a": "100-140bpm",
-        "b": "50-80 bpm",
-        "c": "60-100bpm",
-        "d": "80-150 bpm"
-      },
-      
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    },
-
-
 
 
     {
-      "question": "6. The T wave in ECG is indicative of:",
+      "question": "6. Striated, branched fibres with a single nucleus are characteristic of:",
       "answers": {
-        "a": "Atrial depolarization",
-        "b": "Atrial repolarization",
-        "c": "Ventricular depolarization",
-        "d": "Ventricular repolarization"
+        "a": "Epithelial tissue",
+        "b": "Cardiac muscle",
+        "c": "Muscle cells",
+        "d": "Nerve cells"
       },
      
-      "correctAnswer": "d",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
