@@ -16,3 +16,12 @@
 
 8. Feldman, A. T., & Wolfe, D. (2014). Tissue processing and hematoxylin and eosin staining. In Histopathology: methods and protocols (pp. 31-43). New York, NY: Springer New York.
 
+9. Hande, A. H., Lohe, V. K., Chaudhary, M. S., Gawande, M. N., Patil, S. K., & Zade, P. R. (2017). Impact of virtual microscopy with conventional microscopy on student learning in dental histology. Dental research journal, 14(2), 111.
+
+10. Kim, M. H., Park, Y., Seo, D., Lim, Y. J., Kim, D. I., Kim, C. W., & Kim, W. H. (2008). Virtual microscopy as a practical alternative to conventional microscopy in pathology education. Basic and Applied Pathology, 1(1), 46-48.
+
+11. Scoville, S. A., & Buskirk, T. D. (2007). Traditional and virtual microscopy compared experimentally in a classroom setting. Clinical Anatomy: The Official Journal of the American Association of Clinical Anatomists and the British Association of Clinical Anatomists, 20(5), 565-570.
+
+12. Evans, S. J., Moore, A. R., Olver, C. S., Avery, P. R., & West, A. B. (2020). Virtual microscopy is more effective than conventional microscopy for teaching cytology to veterinary students: a randomized controlled trial. Journal of veterinary medical education, 47(4), 475-481.
+
+
