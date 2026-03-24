@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Histology Microscopy Simulator</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+<div id="start-overlay">
+  <div class="start-box">
+    <h2>Virtual Microscopy Simulator</h2>
+    <p>Welcome to the histology lab. Follow the standard operating procedures to examine the tissue slides.</p>
+    <button id="start-sim-btn">Start Simulation</button>
+  </div>
+</div>
+
+<header>
+  <img src="images\amrita logo.png" class="logo" alt="Logo" onerror="this.style.display='none'">
+  <h1>Virtual Microscopy & Histology</h1>
+</header>
+
+<section class="steps-box">
+  <h2>Standard Operating Procedure</h2>
+  <div class="step-group">
+    <div class="step-item"><span class="step-number">1</span>Mount Slide</div>
+    <div class="step-item"><span class="step-number">2</span>Power On & Illumination</div>
+    <div class="step-item"><span class="step-number">3</span>Select Objective</div>
+    <div class="step-item"><span class="step-number">4</span>Focus (Coarse/Fine)</div>
+  </div>
+</section>
+
+<div class="simulator-layout">
+
+  <aside class="dashboard">
+    <div class="control-panel">
+      <h2>Slide Cabinet</h2>
+      <p class="instruction">Click OR drag a slide to mount.</p>
+      
+      <div class="slide-drawer">
+
+        <div class="slide-item" draggable="true"
+          data-name="Simple Squamous Epithelium"
+          data-4x="images/squamous_epithelium_4x.jpg"
+          data-10x="images/squamous_epithelium_10x.jpg"
+          data-20x="images/squamous_epithelium_20x.jpg"
+          data-40x="images/squamous_epithelium_40x.jpg">
+          🩸 Simple Squamous Epithelium
+        </div>
+
+        <div class="slide-item" draggable="true"
+          data-name="Cardiac Muscle"
+          data-4x="images/cardiac_muscle_4x.jpg"
+          data-10x="images/cardiac_muscle_10x.jpg"
+          data-20x="images/cardiac_muscle_20x.jpg"
+          data-40x="images/cardiac_muscle_40x.jpg">
+          🫀 Cardiac Muscle
+        </div>
+
+        <div class="slide-item" draggable="true"
+          data-name="Skeletal Muscle"
+          data-4x="images/skeletal_muscle_4x.jpg"
+          data-10x="images/skeletal_muscle_10x.jpg"
+          data-20x="images/skeletal_muscle_20x.jpg"
+          data-40x="images/skeletal_muscle_40x.jpg">
+          💪 Skeletal Muscle
+        </div>
+
+        <div class="slide-item" draggable="true"
+          data-name="Nervous Tissue"
+          data-4x="images/nervous_tissue_4x.jpg"
+          data-10x="images/nervous_tissue_10x.jpg"
+          data-20x="images/nervous_tissue_20x.jpg"
+          data-40x="images/nervous_tissue_40x.jpg">
+          🧠 Peripheral Nervous Tissue
+        </div>
+
+      </div>
+    </div>
+
+    <div class="control-panel">
+      <h2>Base Controls</h2>
+      <button id="powerBtn" class="power-off">💡 Turn Light ON</button>
+      <p>Illumination Brightness</p>
+      <input type="range" id="brightness" min="20" max="200" value="100" disabled>
+      <p>Iris Diaphragm (Contrast)</p>
+      <input type="range" id="contrast" min="50" max="150" value="100" disabled>
+    </div>
+
+    <div class="control-panel">
+      <h2>Optics & Focus</h2>
+      <p>Objective Lenses:</p>
+      <div class="lens-group">
+        <button class="lens-btn" data-mag="1" disabled>4x</button>
+        <button class="lens-btn" data-mag="2.5" disabled>10x</button>
+        <button class="lens-btn" data-mag="5" disabled>20x</button>
+        <button class="lens-btn" data-mag="10" disabled>40x</button>
+      </div>
+
+      <hr>
+      <p>Coarse Focus</p>
+      <input type="range" id="coarse-focus" min="0" max="100" value="0" disabled>
+      <p>Fine Focus</p>
+      <input type="range" id="fine-focus" min="0" max="100" value="50" disabled>
+    </div>
+
+    <div class="control-panel">
+      <h2>Mechanical Stage & System</h2>
+      <p>X-Axis (Left/Right)</p>
+      <input type="range" id="stage-x" min="-50" max="50" value="0" disabled>
+      <p>Y-Axis (Up/Down)</p>
+      <input type="range" id="stage-y" min="-50" max="50" value="0" disabled>
+      <button id="reset-stage" disabled>Center Stage</button>
+      <hr>
+      <button id="master-reset" class="danger-btn">🔄 Reset Simulator</button>
+    </div>
+  </aside>
+
+  <main class="microscope-panel">
+    <div class="status-bar">
+      <span>Slide: <strong id="current-slide-name">None</strong></span>
+      <span>Total Mag: <strong id="mag-display">0x</strong></span>
+    </div>
+    <div class="microscope-wrapper" id="microscope-stage">
+      <div class="eyepiece">
+        <div class="crosshair"></div>
+        <div id="slide-wrapper">
+          <img id="slide-view" src="" alt="Slide View">
+          <div id="pin-layer"></div>
+        </div>
+        <div id="light-overlay"></div>
+      </div>
+      <div class="stage-base">Click or Drag Slide Here</div>
+    </div>
+  </main>
+
+</div>
+
+<div class="popup" id="popup">
+  <div class="popup-box">
+    <p id="popupText"></p>
+    <button id="popupOk">OK</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+<script src="../assets/js/iframeResize.js"></script>
+        
+        </body>
+</html>

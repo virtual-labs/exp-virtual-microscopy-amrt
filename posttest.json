@@ -1,0 +1,88 @@
+
+{
+  "version": 2.0,
+  "questions": [
+    {
+          "question": "1. From the simulator, identify the function of the diaphragm in the microscope.",
+      "answers": {
+        "a": "Holds the slide properly",
+        "b": "Focuses on the specimen",
+        "c": "Magnifies the image",
+        "d": "Adjusts light intensity for proper visualization"
+      },
+ 
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },   
+
+
+    {
+      "question": "2. In the simulator window, if the image in the microscope appears blurred, what would you do for better visualization of the cells?",
+      "answers": {
+        "a": "Adjust light intensity",
+        "b": "Use fine and coarse adjustments",
+        "c": "Use new slides",
+        "d": "Change the objective lens"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "3. In H&E staining, how do the nuclei of cardiac muscle cells appear?",
+      "answers": {
+        "a": "Pink",
+        "b": "Blue/Purple",
+        "c": "Yellow",
+        "d": "Colorless"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "4. Long, cylindrical, striated fibres with pink cytoplasm and multiple peripheral blue nuclei in H and E stain represent?",
+      "answers": {
+        "a": "Skeletal muscle",
+        "b": "Nervous tissue",
+        "c": "Squamous epithelium",
+        "d": "Cardiac muscle"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "5. How do squamous epithelial cells appear under H&E stain?",
+      "answers": {
+        "a": "Long, cylindrical, striated cells",
+        "b": "Flattened cells with round nuclei",
+        "c": "Large cell bodies, prominent central nuclei",
+        "d": "Intercalated disc between cells"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+
+
+
+    {
+      "question": "6. The objective lens used for high-power observation of fine details of the tissues:",
+      "answers": {
+        "a": "10X",
+        "b": "4X",
+        "c": "40X",
+        "d": "20X"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}	 

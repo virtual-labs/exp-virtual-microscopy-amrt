@@ -1,0 +1,88 @@
+
+{
+  "version": 2.0,
+  "questions": [
+    {
+          "question": "1. Histology refers to the study of:",
+      "answers": {
+        "a": "Muscles",
+        "b": "Tissues",
+        "c": "Bones",
+        "d": "Diseases"
+      },
+ 
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },   
+
+
+    {
+      "question": "2. The stain commonly used in histology is:",
+      "answers": {
+        "a": "Gram stain",
+        "b": "Iodine stain",
+        "c": "Hematoxylin and eosin",
+        "d": "Methylene blue"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "3. The cell, which is found in the nervous tissue, is:",
+      "answers": {
+        "a": "Neuron",
+        "b": "Chondrocyte",
+        "c": "FibroblastPRS",
+        "d": "Osteocyte"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "4. While staining, the nuclei of cardiac muscle cells appear:",
+      "answers": {
+        "a": "Pink",
+        "b": "Purple",
+        "c": "Red",
+        "d": "Green"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "5. Which part of the epithelial cells does Haematoxylin stain?",
+      "answers": {
+        "a": "Nucleus",
+        "b": "Lipids",
+        "c": "Glycogen",
+        "d": "Cytoplasm"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+
+
+
+
+    {
+      "question": "6. Striated, branched fibres with a single nucleus are characteristic of:",
+      "answers": {
+        "a": "Epithelial tissue",
+        "b": "Cardiac muscle",
+        "c": "Muscle cells",
+        "d": "Nerve cells"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}	 
