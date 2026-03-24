@@ -9,8 +9,16 @@
 
 <body>
 
+<div id="start-overlay">
+  <div class="start-box">
+    <h2>Virtual Microscopy Simulator</h2>
+    <p>Welcome to the histology lab. Follow the standard operating procedures to examine the tissue slides.</p>
+    <button id="start-sim-btn">Start Simulation</button>
+  </div>
+</div>
+
 <header>
-  <img src="images\logo.png" class="logo" alt="Logo" onerror="this.style.display='none'">
+  <img src="images\amrita logo.png" class="logo" alt="Logo" onerror="this.style.display='none'">
   <h1>Virtual Microscopy & Histology</h1>
 </header>
 
@@ -33,14 +41,13 @@
       
       <div class="slide-drawer">
 
-        <!-- 🔥 UPDATED: MULTI-RES IMAGES -->
         <div class="slide-item" draggable="true"
           data-name="Simple Squamous Epithelium"
           data-4x="images/squamous_epithelium_4x.jpg"
           data-10x="images/squamous_epithelium_10x.jpg"
           data-20x="images/squamous_epithelium_20x.jpg"
           data-40x="images/squamous_epithelium_40x.jpg">
-          🩸 Simple Squamous
+          🩸 Simple Squamous Epithelium
         </div>
 
         <div class="slide-item" draggable="true"
@@ -67,7 +74,7 @@
           data-10x="images/nervous_tissue_10x.jpg"
           data-20x="images/nervous_tissue_20x.jpg"
           data-40x="images/nervous_tissue_40x.jpg">
-          🧠 Nervous Tissue
+          🧠 Peripheral Nervous Tissue
         </div>
 
       </div>
@@ -85,8 +92,6 @@
     <div class="control-panel">
       <h2>Optics & Focus</h2>
       <p>Objective Lenses:</p>
-
-      <!-- 🔥 UPDATED: 20x ADDED -->
       <div class="lens-group">
         <button class="lens-btn" data-mag="1" disabled>4x</button>
         <button class="lens-btn" data-mag="2.5" disabled>10x</button>
@@ -102,13 +107,14 @@
     </div>
 
     <div class="control-panel">
-      <h2>Mechanical Stage & Tools</h2>
+      <h2>Mechanical Stage & System</h2>
       <p>X-Axis (Left/Right)</p>
       <input type="range" id="stage-x" min="-50" max="50" value="0" disabled>
       <p>Y-Axis (Up/Down)</p>
       <input type="range" id="stage-y" min="-50" max="50" value="0" disabled>
       <button id="reset-stage" disabled>Center Stage</button>
       <hr>
+      <button id="master-reset" class="danger-btn">🔄 Reset Simulator</button>
     </div>
   </aside>
 
