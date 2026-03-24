@@ -26,7 +26,7 @@
 
 
 <p align="center">
-  <img src="images/p3.png" title="Step1" />
+  <img src="images/p3.PNG" title="Step1" />
 </p>
 
 &nbsp;
@@ -59,7 +59,7 @@
 6. The user can adjust the illumination brightness and the iris diaphragm by moving the cursor for better visualization of the specimen.
 
 <p align="center">
-  <img src="images/p6.png" title="Step1" />
+  <img src="images/p6.PNG" title="Step1" />
 </p>
 
 &nbsp;
