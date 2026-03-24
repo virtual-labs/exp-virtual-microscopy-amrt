@@ -24,6 +24,7 @@
 
 3. To begin the simulation, users can select a specimen from the available cell types provided in the simulator window.
 
+
 <p align="center">
   <img src="images/p3.png" title="Step1" />
 </p>
@@ -64,7 +65,7 @@
 &nbsp;
 
 
-&nbsp; 
+&nbsp;
 
 7. The user can change the objective lens to improve magnification. 4X, 10x, 20X and 40X lenses are provided as examples.
 
